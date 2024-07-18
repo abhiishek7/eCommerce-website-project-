@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>www.pixiepalace.com</title>
+	<style type="text/css">
+	body{
+			margin: 0px;
+			padding: 0px;
+			background-color:#F9EFDB;
+		}
+		.logo
+		{
+			width: 100%;
+			background-color: #EBD9B4 ;
+			color: white;
+			padding: 7px;
+			
+		}
+		.barandname{
+			margin-top: -24px;
+			font-size: 26px;
+			font-family: serif;
+			letter-spacing: 4px;
+			color: black;
+			padding-bottom: 5px;
+		}
+		ul
+		{
+			list-style: none;
+			margin: 0px;
+			padding: 0;
+			overflow: hidden;
+			margin-left: 500px;
+			margin-top: -64px;
+			text-align: center;			
+		}
+		li a{
+			float: left;
+			color: black;
+			font-weight: bold;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+		li a:hover
+		{
+			background-color: #78ABA8;
+			cursor: pointer;
+			color: whitesmoke;
+			border-radius: 5px;
+		}
+		.r1
+		{
+			float: right;
+		}
+		.TOPi
+		{
+			text-align: center;
+			color: #638889   ;
+			font-family: sans-serif;
+			font-weight: bolder;
+			font-size: 24px;
+
+		}
+		.flex-container
+		{
+			display: flex;
+			margin-top: 100px;
+			text-align: center;
+			margin-left: 175px;
+			padding: 5px;
+		}
+		 button
+        {
+        	background-color: #638889;
+        	padding: 12px;
+        	width: 200px;
+        	margin-top: -8px;
+        	border-radius: 5px;
+        	border: none;
+        	color: white;
+        	box-shadow: 5px 5px 5px black;
+
+        }
+        button:hover
+        {
+        	cursor: pointer;
+        	background-color:#78ABA8;
+        	box-shadow: 5px 5px 5px #638889 ;
+
+        }
+        .tagline
+        {
+        	padding: 10px;
+        	padding: 16px;
+        	margin-top: 12px;
+        	border-radius: 5px;
+        	border: none;
+        	color: #638889;
+        	font-family: sans-serif;
+        	font-size: 20px;
+        	font-weight: bold;
+
+        }
+        .field
+        {
+        	padding: 20px;
+        	padding-bottom: 10px;
+        	padding-top: 10px;
+        	width: 300px;
+        	border-radius: 10px;
+        	border: none;
+        	text-align: center;
+        	box-shadow: 5px 5px 5px black;
+        }
+        .loginform1{
+        	background-color: #EBD9B4 ;
+        	padding: 40px;
+        	border-radius: 30px;
+        	border: 5px solid black;
+
+        }
+        .img1
+        {
+        	margin-top: 65px;
+        }
+
+ .loginform1
+{
+	animation-name: fl1;
+	animation-duration: 3s;
+}
+
+@keyframes fl1
+{
+	from{
+		margin-top: 50%;
+	}
+	to{
+		margin-top: -2px;
+	}
+}
+.img1
+{
+	animation-name: fl2;
+	animation-duration: 3s;
+}
+
+@keyframes fl2
+{
+	from{
+		margin-left: 50%;
+	}
+	to{
+		margin-left: -2px;
+	}
+}
+.fp
+{
+	float: right;
+	font-size: 12px;
+	font-family: sans-serif;
+	padding: 3px;
+	text-decoration: underline;
+	margin-top: -15px;
+}
+.fp:hover
+{
+	cursor: pointer;
+	color: blue;
+
+}
+
+.icon
+{
+	padding: 5px;
+	text-align: center;
+	font-size: 20px;
+	letter-spacing: 10px;
+	margin-top: -10px;
+}
+.icon:hover
+{
+	cursor: pointer;
+	color: white;
+}
+
+
+	</style>
+
+</head>
+<body>
+
+	<div class="logo">
+   	    <img src="logo.png" width="200" height="80px">
+   		<div class="menu">
+   			<ul>
+   				<li> <a href="index.html"> <span class="fa fa-home"></span> HOME </a> </li>
+   				<li> <a href="dounload.html"> <span class="fa fa-download"></span> DOWNLOAD APP </a> </li>
+   				<li> <a href=""> <span class="fa fa-tag"></span> SELLER </a> </li>
+   				<li> <a href="#op"> <span class="fa fa-plus-square "></span> PRODUCT </a> </li>
+   				<li> <a href="newuser.html" class="r1"> <span class="fa fa-user"></span> NEW ACCOUNT</a> </li>
+   				<li> <a href="" class="r1"> <span class="fa fa-shopping-cart "></span> CART </a> </li>
+   			</ul>
+   		</div>
+   </div>
+
+   <div class="flex-container">
+   	<div class="img1">
+   		<img src="logo.png">
+   		
+   	</div>
+   	<div class="loginform1">
+   		<table cellpadding="10px">
+   			<tr>
+   				<th colspan="2" class="tagline">FORGET PASSWORD</th>
+   			</tr>
+   			<tr>
+   				<td>
+   					 <input type="text" name="username" placeholder="ENTER GMAIL" required class="field">
+   				</td>
+   			</tr>
+   			<tr>
+   				<td>
+   					<button>SEND OTP</button>	
+   			  </td>
+   			</tr>
+   			<tr>
+   				<td>
+   					 <input type="text" name="username" placeholder="ENTER-OTP" required class="field">
+   				</td>
+   			</tr>
+   			<tr>
+   				<td>
+   					 <input type="text" name="username" placeholder="NEW-PASSWORD" required class="field">
+   				</td>
+   			</tr>
+   			<tr>
+   				<td>
+   					 <input type="password" name="username" placeholder="CONFORM-PASSWORD" required class="field">
+   				</td>
+   			</tr>
+   			<tr>
+   				<td>
+   					<button>CHANGE PASSWORD</button>
+   					<a href="logi.html"><button>BACK</button></a>
+   						
+   			  </td>
+   			</tr>
+   		</table>
+   		
+   	</div>
+   	
+   </div>
+
+</body>
+</html>
